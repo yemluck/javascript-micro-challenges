@@ -59,4 +59,20 @@ console.log(stringConcatenation(['a','b','c'], 1)); // should log "bc"
 console.log(stringConcatenation(["kakd", "ate", "eod", "Hello", " ", "everyone", "!"], 3)); // Should log "Hello everyone!"
 
 
-//  
+//  140: Create a function that takes in an array of employee objects.
+// Each employee object will cojme in with a property called yearsOfExperience.
+// function should return the total years of experience for all of the employees.
+
+function totalYearsOfExperience(objectArray){
+    let sum = 0
+    for(i=0; i<objectArray.length; i++){
+       sum += objectArray[i].yearsOfExperience 
+    } // end of for loop
+    return sum
+} // end function totalYearsOfExperience
+
+console.log(totalYearsOfExperience([
+    {name: "Tony", yearsOfExperience: 10},
+    {name: "Carla", yearsOfExperience: 4}
+])); // should log 14
+
