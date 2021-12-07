@@ -76,3 +76,6 @@ console.log(totalYearsOfExperience([
     {name: "Carla", yearsOfExperience: 4}
 ])); // should log 14
 
+// 150: Create a function that takes in an array of arrays
+// Add up all of the numberrs in all of the arrays and return the value
+
