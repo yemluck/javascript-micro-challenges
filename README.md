@@ -8,6 +8,6 @@
 
 ## Stretch mode
 
--130-LoopsArraysAndConcatenation
--140-LoopsArrayOfObjects
--150-LoopsAndTwoDimensionalArray
+- 130-LoopsArraysAndConcatenation
+- 140-LoopsArrayOfObjects
+- 150-LoopsAndTwoDimensionalArray
